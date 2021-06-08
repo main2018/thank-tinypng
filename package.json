@@ -1,0 +1,34 @@
+{
+    "name": "thank-tinypng",
+    "version": "1.0.1",
+    "description": "A library using tinypng to automatically compress pictures",
+    "main": "src/tinypng.js",
+    "filename": "tinypng.js",
+    "bin": {
+        "tinypng": "src/tinypng.js"
+    },
+    "scripts": {
+        "test-help": "node ./src/tinypng.js -help",
+        "test-img": "node ./src/tinypng.js -img ./public/test.png",
+        "test-dir": "node ./src/tinypng.js -dir ./public",
+        "test-dir-deep": "node ./src/tinypng.js -dir ./public -deep"
+    },
+    "keywords": [
+        "tinypng",
+        "chenhu.pei"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pch1024/thank-tinypng.git"
+    },
+    "homepage": "https://github.com/pch1024/thank-tinypng#readme",
+    "maintainers": [
+        {
+            "name": "chenhu.pei",
+            "web": "www.peichenhu.cn",
+            "mail": "pch1024@outlook.com"
+        }
+    ],
+    "author": "chenhu.pei",
+    "license": "MIT"
+}
