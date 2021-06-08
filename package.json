@@ -1,6 +1,6 @@
 {
     "name": "thank-tinypng",
-    "version": "1.0.1",
+    "version": "1.0.4",
     "description": "A library using tinypng to automatically compress pictures",
     "main": "src/tinypng.js",
     "filename": "tinypng.js",

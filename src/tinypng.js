@@ -115,7 +115,6 @@ function getDeepLoop() {
  * @param {*} files 待处理文件列表
  */
 function fileFilter(folder) {
-    console.log(1111, folder);
     if (conf.type === "img") {
         conf.files.push(folder);
         return;
